@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Frames</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="frame1.html" style="background-color: red;"></iframe>
+    <iframe src="frame2.html" style="background-color: blue;"></iframe>
+    <iframe src="frame3.html" style="background-color: green;"></iframe>
+    <iframe src="frame4.html" style="background-color: yellow;"></iframe>
+</body>
+</html>
